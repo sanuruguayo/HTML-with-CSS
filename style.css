@@ -59,7 +59,6 @@ li {
   font-family: "Roboto-Black";
   font-weight: bolder;
   font-size: 48px;
-
   color: #f9faf8;
   margin: 0;
 }
@@ -73,7 +72,6 @@ li {
 }
 p {
   font-size: 18px;
-
   color: #e5e7eb;
 }
 .hero-article {
@@ -86,13 +84,11 @@ p {
 .title-info {
   font-family: "Roboto-Black";
   font-size: 36px;
-
   color: #1f2937;
   margin-top: 0;
 }
 .info {
   padding: 50px 250px 100px;
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -104,7 +100,9 @@ figure {
   margin: 20px;
   width: 25%;
 }
-
+.images {
+  border: #3882f6 solid 3px;
+}
 img {
   width: 100%;
   border-radius: 10px;
