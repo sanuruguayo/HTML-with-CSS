@@ -4,79 +4,90 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h2>Header Logo</h2>
-      <div>
-        <a href="">My projects</a>
-        <a href="">About me</a>
-        <a href="">Contact me</a>
-      </div>
+    <header class="header">
+      <h2 class="logo">Handyman</h2>
+      <ul class="navBar">
+        <li>
+          <a href=""><span>My solutions</span></a>
+        </li>
+        <li><a href="">About me</a></li>
+        <li><a href="">Contact me</a></li>
+      </ul>
     </header>
     <main>
-      <section>
-        <article>
-          <h1>This website is awesome</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            pharetra bibendum mi in euismod. Pellentesque vulputate, nisi eu
-            tristique pellentesque, neque neque pretium ligula, et tempor nisl
-            ligula quis nisi.
+      <section class="hero">
+        <article class="hero-article">
+          <h1 class="mainTitle">No problems, just solutions</h1>
+          <p class="hero-p">
+            What ever your problem is We can fix it, that's for sure!
           </p>
-          <button>Sign up</button>
+          <button class="button">Sign up</button>
         </article>
-        <img src="./images/web-developer.jpeg" alt="Developer image" />
+        <img
+          class="img-hero"
+          src="./images/handyman.jpg"
+          alt="Developer image"
+        />
       </section>
-      <section>
-        <h3>Some random information</h3>
-        <figure>
-          <img src="" alt="" />
-          <figcaption>
-            Etiam non sem sed dui blandit tincidunt quis eu metus. Suspendisse
-            ac felis erat. Donec sollicitudin est non justo congue maximus
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="" alt="" />
-          <figcaption>
-            Etiam non sem sed dui blandit tincidunt quis eu metus. Suspendisse
-            ac felis erat. Donec sollicitudin est non justo congue maximus
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="" alt="" />
-          <figcaption>
-            Etiam non sem sed dui blandit tincidunt quis eu metus. Suspendisse
-            ac felis erat. Donec sollicitudin est non justo congue maximus
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="" alt="" />
-          <figcaption>
-            Etiam non sem sed dui blandit tincidunt quis eu metus. Suspendisse
-            ac felis erat. Donec sollicitudin est non justo congue maximus
-          </figcaption>
-        </figure>
+      <section class="info">
+        <h3 class="title-info">What We can do</h3>
+        <div class="info-img">
+          <figure>
+            <img src="./images/electrician.jpg" alt="asd" />
+            <figcaption>
+              <b>Electrician</b> - Doesn't matter if you need to fix a an
+              electric problem or you need to build something from srcatch,
+              Count on me!
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/plumber.jpg" alt="asd" class="" />
+            <figcaption>
+              <b>Plumber</b> - We focus in doing good quality jobs, great eye
+              for details.
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/Carpentry.jpg" alt="asd" />
+            <figcaption>
+              <b>Carpentry</b> - From fixing a chair or a door, to builing a
+              deck a retaining wall or a fence
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/web design.jfif" alt="asd" />
+            <figcaption>
+              <b>Web Developer</b> - We can build yor website using the most
+              advanced technologies nowadays
+            </figcaption>
+          </figure>
+        </div>
       </section>
-      <section>
+      <section class="comments">
         <blockquote>
-          "Donec vulputate nulla ac augue varius fringilla. Donec non libero
-          libero. Morbi semper venenatis dignissim. Vestibulum ante ipsum primis
-          in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas
-          risus nunc, placerat non nisi eu, volutpat interdum arcu. Cras euismod
-          mauris ac quam ornare pharetra."
+          <p class="quote">
+            “We needed a few small handyman fixes around the house before we
+            moved out. This company was 1st class from customer service to the
+            technician that came out. I'd recommend them for all your
+            household fixes!!!”
+          </p>
         </blockquote>
+        <p class="author">-Thor</p>
       </section>
-      <section>
+      <section class="call-to-action">
         <article>
-          <h3>Call to action! It's time!</h3>
-          <p>Sign up for our productby clicking that button right over there</p>
+          <h3 class="title-action">Call to action! It's time!</h3>
+          <p class="p-action">
+            Sign up for our product by clicking that button right over there
+          </p>
         </article>
-        <button>Sign up</button>
+        <button class="button button-action">Sign up</button>
       </section>
-      <footer>Copyright</footer>
+      <footer><p class="text-footer">Copyright ©</p></footer>
     </main>
   </body>
 </html>
